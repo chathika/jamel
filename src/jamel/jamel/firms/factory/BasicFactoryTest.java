@@ -66,11 +66,11 @@ public class BasicFactoryTest {
 		return laborPowers;
 	}
 
-	@Before
+	//@Before
 	public void setUp() throws Exception {
 	}
 
-	@After
+	//@After
 	public void tearDown() throws Exception {
 	}
 
@@ -78,7 +78,7 @@ public class BasicFactoryTest {
 	 * Are we able to sort machines according to their productivity in
 	 * descending order ?
 	 */
-	@Test
+	//@Test
 	public void test1() {
 		final Timer timer = new BasicTimer(0);
 		final Random random = new Random();
